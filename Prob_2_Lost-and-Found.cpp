@@ -7,7 +7,6 @@ bool isVokal(char c) {
     return (c == 'a' || c == 'i' || c == 'u' || c == 'e' || c == 'o');
 }
 
-// Fungsi untuk membalik string tanpa reverse()
 string balikString(const string &s) {
     string hasil = "";
     for (int i = s.length() - 1; i >= 0; i--) {
@@ -53,3 +52,4 @@ int main() {
 
     return 0;
 }
+
